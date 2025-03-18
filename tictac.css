@@ -1,0 +1,45 @@
+body { 
+    text-align: center; 
+    font-family: Arial, sans-serif; 
+    background: url('https://scontent-vie1-1.xx.fbcdn.net/v/t1.6435-9/100478297_10217303842444263_3646985794800844800_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5bbf69&_nc_ohc=I2-NtC8VWUQQ7kNvgH4C0oL&_nc_oc=AdnHIPkqqF78-NNPw1bN4nBYHEf0EhAj9HKSxNwkuXRj_BN1tBWCPsd7Q6nY7rpJTZ850-x6O8JWz6XOYokqAELL&_nc_zt=23&_nc_ht=scontent-vie1-1.xx&_nc_gid=FGW9EJ-250b04usTvbTSuA&oh=00_AYGmw5XbYjQ9bPGATCxHxfJLez2tQfnV7GhlDOyJB3sXVw&oe=68014FC0');
+    color: white;
+}
+#tabla { 
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+    width: 310px;
+}
+.mezo {
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+button:hover {
+    background: #0056b3;
+}
+#allapot, #kovetkezo {
+    font-size: 18px;
+    margin-top: 10px;
+}
